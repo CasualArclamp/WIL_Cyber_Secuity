@@ -114,12 +114,19 @@ body {
 
 /* content */
 
+
+
 .content h2 {
 	font-size: 1.5em;
 	line-height: 1em;
 	margin-bottom: 1em;
 	text-align:center;
 }
+
+#text {
+	clear: both;
+}
+
 
 #intro {
 	display: flex;
@@ -131,6 +138,7 @@ body {
 
 #intro article {
 	width: 100%;
+	
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: auto 100px;
@@ -159,6 +167,7 @@ body {
 
 #intro2 article {
 	width: 100%;
+	
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: auto 100px;
