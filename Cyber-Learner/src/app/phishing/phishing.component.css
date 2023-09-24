@@ -25,6 +25,7 @@ body {
 	
 	
 	
+	
 }
 
 #page-header .title {
@@ -76,6 +77,34 @@ body {
 #page-header .button p {
 	color: white;
 	font-size: 1.5em;
+}
+
+/* Main Content */
+#phishing {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+#phishing article {
+	border-style: ridge;
+	border-color: aqua;
+	border-width: 5px;
+	padding: 10px;
+	margin: auto;
+}
+
+#phishing article h3 {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+#phishing article p {
+	text-align: left;
+}
+
+#phishing article li {
+	text-align: left;
 }
 
 
