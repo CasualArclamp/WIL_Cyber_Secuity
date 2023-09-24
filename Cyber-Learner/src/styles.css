@@ -39,7 +39,10 @@
 
 /* Page Footer */
 
+
+
 #page-footer {
+	clear: both;
 	padding: 1.5em;
 	text-transform: uppercase;
 }
