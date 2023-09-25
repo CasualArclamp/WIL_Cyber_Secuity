@@ -99,12 +99,30 @@ body {
 #row {
 	display: block;
 }
+
 #column {
 	width: 50%;
 	margin-bottom: 1em;
 }
 
+/* video */
+#video {
+	margin-top: 2em;
+	margin-left: 20%;
+}
 
+#video h2 {
+	margin-bottom: 1em;
+}
+
+
+video::-webkit-media-controls-fullscreen-button {
+	
+}
+
+video::-webkit-media-controls-play-button {
+
+}
 
 
 
