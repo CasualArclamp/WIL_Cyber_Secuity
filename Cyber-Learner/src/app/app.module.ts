@@ -9,13 +9,15 @@ import { PhishingComponent } from './phishing/phishing.component';
 import { PasswordComponent } from './password/password.component';
 import { TeamworkComponent } from './teamwork/teamwork.component';
 import { GamesComponent } from './games/games.component';
+import { ReferenceComponent } from './reference/reference.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'phishing', component: PhishingComponent},
   { path: 'password', component: PasswordComponent},
   { path: 'teamwork', component: TeamworkComponent},
-  { path: 'games', component: GamesComponent}
+  { path: 'games', component: GamesComponent},
+  { path: 'reference', component: ReferenceComponent}
 ];
 
 
@@ -28,7 +30,8 @@ const appRoutes: Routes = [
     PhishingComponent,
     PasswordComponent,
     TeamworkComponent,
-    GamesComponent
+    GamesComponent,
+    ReferenceComponent
   ],
   imports: [
     BrowserModule,

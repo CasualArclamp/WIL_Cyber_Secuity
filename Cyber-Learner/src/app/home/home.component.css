@@ -115,14 +115,12 @@ body {
 	margin-bottom: 1em;
 }
 
-
-video::-webkit-media-controls-fullscreen-button {
-	
+#video video {
+	margin-bottom: 1em;
 }
 
-video::-webkit-media-controls-play-button {
 
-}
+
 
 
 

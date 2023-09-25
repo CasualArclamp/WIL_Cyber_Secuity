@@ -11,18 +11,15 @@ body {
 	color: black;
 }
 
-
-
-
 /* Page Header */
 
 #page-header {
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
 	background-size: cover;
 	background-position: center center;
 	text-align: center;
 	font-size: 1.4em;
 	line-height: 1.5em;
-	
 	
 	
 	
@@ -48,6 +45,11 @@ body {
 
 #page-header p {
 	color: black;
+    margin-bottom: 5em;
+}
+
+#page-header h2 {
+    margin-bottom: 1em;
 }
 
 #page-header .button {
@@ -79,49 +81,15 @@ body {
 	font-size: 1.5em;
 }
 
-/* Main Content */
-#phishing {
-	margin-top: 2em;
-	margin-left: 15%;
-	margin-right: 15%;
+#list {
+    margin-left: 40%;
+    
 }
 
-
-#phishing article {
-	border-style: ridge;
-	border-color: aqua;
-	border-width: 5px;
-	padding: 10px;
-	margin: auto;
+#list li {
+    margin-bottom: 0.5em;
+    text-align: left;
 }
-
-#phishing article h3 {
-	text-align: center;
-	padding-bottom: 1em;
-}
-
-#phishing article p {
-	text-align: left;
-}
-
-#phishing article li {
-	text-align: left;
-}
-
-/* video */
-#video {
-	margin-top: 5em;
-	margin-left: 15%;
-}
-
-#video h2 {
-	margin-bottom: 1em;
-}
-
-
-
-
-
 
 @media only screen and (min-width: 900px) {
 
@@ -140,13 +108,6 @@ body {
 
 	#page-header h1 {
 		font-size: 4em;
-	}
-
-	/* Content */
-
-	
-	.content {
-		padding: 3em;
 	}
 
 
