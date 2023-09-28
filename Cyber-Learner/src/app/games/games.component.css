@@ -44,7 +44,7 @@ body {
 }
 
 #page-header p {
-	color: black;
+	color:aliceblue;
 }
 
 #page-header .button {
@@ -81,6 +81,7 @@ body {
 
 .content {
 	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 .content h2 {
@@ -91,6 +92,7 @@ body {
 	margin-left: 15%;
 	margin-right: 15%;
 	display: block;
+	
 }
 
 #row h2 {

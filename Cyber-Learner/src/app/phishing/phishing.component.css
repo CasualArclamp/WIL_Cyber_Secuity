@@ -48,7 +48,7 @@ body {
 }
 
 #page-header p {
-	color: black;
+	color:aliceblue;
 }
 
 #page-header .button {
@@ -113,10 +113,17 @@ body {
 #video {
 	margin-top: 5em;
 	margin-left: 15%;
+	margin-bottom: 1em;
 }
 
 #video h2 {
 	margin-bottom: 1em;
+}
+
+#video video {
+	margin-bottom: 1em;
+	width: 70%;
+	height: 50%;
 }
 
 

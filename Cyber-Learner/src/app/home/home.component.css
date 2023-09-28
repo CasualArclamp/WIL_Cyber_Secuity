@@ -9,20 +9,20 @@ body {
 	line-height: 1.5em;
 	background: white;
 	color: black;
+	
 }
 
 /* Page Header */
 
 #page-header {
 	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-	background-size: cover;
+	background-size:contain;
 	background-position: center center;
+	background-repeat: no-repeat;
 	text-align: center;
 	font-size: 1.4em;
 	line-height: 1.5em;
-	
-	
-	
+	background-image: url('../../assets/images/robort.png');
 }
 
 #page-header .title {
@@ -44,13 +44,13 @@ body {
 }
 
 #page-header p {
-	color: black;
+	color:aliceblue;
 }
 
 #page-header .button {
 	text-align: center;
 	padding: 10% 0;
-	background-color: #888;
+	color: rgba(224,224, 224, 0.2);
 	
 	
 }
@@ -72,7 +72,7 @@ body {
 }
 
 #page-header .button p {
-	color: white;
+	color: rgb(4, 240, 94);
 	font-size: 1.5em;
 }
 
@@ -117,6 +117,8 @@ body {
 
 #video video {
 	margin-bottom: 1em;
+	width: 70%;
+	height: 50%;
 }
 
 

@@ -2,6 +2,13 @@
 
 /* Menu */
 
+body {
+	background-image:url('assets/images/hacker-4949897.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
 #menu {
 	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
 	background-color: #888;
@@ -27,6 +34,7 @@
 	text-shadow: rgba(0,0,0,0.5) 0 1px 0;
 }
 
+
 #menu a:hover {
 	background: #aaa;
 }
@@ -42,6 +50,36 @@
 	
 }
 
+/* main */
+#main {
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: rgba(2, 2, 2, 0.8);
+}
+
+#main p {
+	color: aliceblue;
+}
+
+#main h2 {
+	color: aliceblue;
+}
+
+#main h3 {
+	color: aliceblue;
+}
+
+#main li {
+	color: aliceblue;
+}
+
+
+/* Page Header */
+
+/*#page-header {
+	background-color: rgba(255, 0, 0, 0.2);
+}*/
+
 /* Page Footer */
 
 
@@ -50,6 +88,7 @@
 	clear: both;
 	padding: 1.5em;
 	text-transform: uppercase;
+	background-color: #888;
 }
 
 #page-footer li {
@@ -57,7 +96,7 @@
 }
 
 #page-footer a {
-	color: #999;
+	color:aliceblue;
 }
 
 @media only screen and (min-width: 900px) {
