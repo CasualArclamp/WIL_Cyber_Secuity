@@ -42,7 +42,7 @@ body {
 	font-size: 3em;
 	line-height: 1em;
 	padding: 0.1em 1em 0 1em;
-	color: darkblue;
+	color:aliceblue;
 }
 
 #page-header p {
@@ -74,7 +74,7 @@ body {
 }
 
 #page-header .button p {
-	color: rgb(4, 240, 94);
+	color:aliceblue;
 	font-size: 1.5em;
 }
 
