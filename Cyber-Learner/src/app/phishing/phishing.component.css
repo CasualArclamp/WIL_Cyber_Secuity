@@ -119,6 +119,10 @@ body {
 }
 
 #video h2 {
+	margin-bottom: 2em;
+}
+
+#video h3 {
 	margin-bottom: 1em;
 }
 

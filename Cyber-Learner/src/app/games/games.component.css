@@ -78,6 +78,26 @@ body {
 	font-size: 1.5em;
 }
 
+/* Main */
+
+.main {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/* Team Work */
+
+.team-work article {
+	border-style: ridge;
+	border-color: aqua;
+	border-width: 5px;
+	padding: 10px;
+	margin: auto;
+}
+
+.team-work h2 {
+	margin-bottom: 1em;
+}
 
 /* Content */
 
