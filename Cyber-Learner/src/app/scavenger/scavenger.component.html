@@ -1,13 +1,13 @@
 <h1>Scavenger Hunt Questions</h1>
 <div id="question-list"></div>
 <script>
-  // JavaScript code to load questions and generate textboxes
-  fetch('../../assets/JSON/scavengerQuestions.json')
+  // code to load questions and textboxes
+  fetch('src/assets/JSON/scavengerQuestions.json')
     .then(response => response.json())
     .then(data => {
       const questionList = document.getElementById('question-list');
 
-      // Loop through the questions in the JSON data
+      // Loop through the questions
       data.forEach((questionData, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.classList.add('question');
@@ -17,15 +17,29 @@
         questionLabel.textContent = `Question ${index + 1}: ${questionData.question}`;
         questionDiv.appendChild(questionLabel);
 
-        // Create a textbox for the answer
+        // Create a textbox
         const answerInput = document.createElement('input');
         answerInput.type = 'text';
         answerInput.placeholder = 'Enter your answer';
-        answerInput.addEventListener('input', (event) => {
-          // Store the answer in the JSON data
-          data[index].answer = event.target.value;
-        });
         questionDiv.appendChild(answerInput);
+
+        // Add an event listener to check answers
+        answerInput.addEventListener('input', (event) => {
+          // Get the user's answer
+          const userAnswer = event.target.value;
+
+          // Get the correct answer from the JSON data
+          const correctAnswer = data[index].answer;
+
+          // Check if the user's answer matches the correct answer
+          if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+            // Provide feedback if the answer is correct
+            answerInput.style.backgroundColor = 'lightgreen';
+          } else {
+            // Clear the feedback if the answer is incorrect
+            answerInput.style.backgroundColor = '';
+          }
+        });
 
         questionList.appendChild(questionDiv);
       });
