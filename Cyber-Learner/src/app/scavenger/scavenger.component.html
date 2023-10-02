@@ -1,47 +1,10 @@
-<h1>Scavenger Hunt Questions</h1>
-<div id="question-list"></div>
-<script>
-  // code to load questions and textboxes
-  fetch('src/assets/JSON/scavengerQuestions.json')
-    .then(response => response.json())
-    .then(data => {
-      const questionList = document.getElementById('question-list');
-
-      // Loop through the questions
-      data.forEach((questionData, index) => {
-        const questionDiv = document.createElement('div');
-        questionDiv.classList.add('question');
-
-        // Create a label for the question
-        const questionLabel = document.createElement('label');
-        questionLabel.textContent = `Question ${index + 1}: ${questionData.question}`;
-        questionDiv.appendChild(questionLabel);
-
-        // Create a textbox
-        const answerInput = document.createElement('input');
-        answerInput.type = 'text';
-        answerInput.placeholder = 'Enter your answer';
-        questionDiv.appendChild(answerInput);
-
-        // Add an event listener to check answers
-        answerInput.addEventListener('input', (event) => {
-          // Get the user's answer
-          const userAnswer = event.target.value;
-
-          // Get the correct answer from the JSON data
-          const correctAnswer = data[index].answer;
-
-          // Check if the user's answer matches the correct answer
-          if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
-            // Provide feedback if the answer is correct
-            answerInput.style.backgroundColor = 'lightgreen';
-          } else {
-            // Clear the feedback if the answer is incorrect
-            answerInput.style.backgroundColor = '';
-          }
-        });
-
-        questionList.appendChild(questionDiv);
-      });
-    });
-</script>
+<div>
+  <h1>Scavenger Hunt Questions</h1>
+  <h3>The textbox will turn green when the correct answer is entered.</h3>
+  <div id="question-list">
+    <div class="question" *ngFor="let questionData of questions; let i = index">
+      <label>{{ 'Question ' + (i + 1) + ': ' + questionData.question }}</label>
+      <input type="text" placeholder="Enter your answer" [(ngModel)]="questionData.userAnswer" (input)="checkAnswer(i)" [ngClass]="{'correct-answer': questionData.userAnswer && questionData.userAnswer.toLowerCase() === questionData.answer.toLowerCase()}">
+    </div>
+  </div>
+</div>

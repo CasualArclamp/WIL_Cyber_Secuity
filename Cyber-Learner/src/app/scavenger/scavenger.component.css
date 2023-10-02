@@ -1,4 +1,17 @@
-h1, p {
+h1, h3, label {
   color: white;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   text-align: center;
+}
+
+.correct-answer {
+  background-color: lightgreen;
+}
+
+.question {
+  padding: 5px;
+}
+
+input {
+  float: right;
 }
