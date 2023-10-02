@@ -10,6 +10,7 @@ import { PasswordComponent } from './password/password.component';
 import { TeamworkComponent } from './teamwork/teamwork.component';
 import { GamesComponent } from './games/games.component';
 import { ReferenceComponent } from './reference/reference.component';
+import { ScavengerComponent } from './scavenger/scavenger.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -17,7 +18,8 @@ const appRoutes: Routes = [
   { path: 'password', component: PasswordComponent},
   { path: 'teamwork', component: TeamworkComponent},
   { path: 'games', component: GamesComponent},
-  { path: 'reference', component: ReferenceComponent}
+  { path: 'reference', component: ReferenceComponent},
+  { path: 'scavenger', component: ScavengerComponent}
 ];
 
 
@@ -31,7 +33,8 @@ const appRoutes: Routes = [
     PasswordComponent,
     TeamworkComponent,
     GamesComponent,
-    ReferenceComponent
+    ReferenceComponent,
+    ScavengerComponent
   ],
   imports: [
     BrowserModule,
