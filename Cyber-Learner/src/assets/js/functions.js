@@ -5,7 +5,7 @@ function CheckPassword() {
     }
 
     else {
-        document.getElementById("result").innerHTML = "Graet Password!"
+        document.getElementById("result").innerHTML = "Great Password!"
     }
 }
 
