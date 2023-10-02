@@ -1,1 +1,33 @@
-<p>scavenger works!</p>
+<h1>Scavenger Hunt Questions</h1>
+<div id="question-list"></div>
+<script>
+  // JavaScript code to load questions and generate textboxes
+  fetch('../../assets/JSON/scavengerQuestions.json')
+    .then(response => response.json())
+    .then(data => {
+      const questionList = document.getElementById('question-list');
+
+      // Loop through the questions in the JSON data
+      data.forEach((questionData, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.classList.add('question');
+
+        // Create a label for the question
+        const questionLabel = document.createElement('label');
+        questionLabel.textContent = `Question ${index + 1}: ${questionData.question}`;
+        questionDiv.appendChild(questionLabel);
+
+        // Create a textbox for the answer
+        const answerInput = document.createElement('input');
+        answerInput.type = 'text';
+        answerInput.placeholder = 'Enter your answer';
+        answerInput.addEventListener('input', (event) => {
+          // Store the answer in the JSON data
+          data[index].answer = event.target.value;
+        });
+        questionDiv.appendChild(answerInput);
+
+        questionList.appendChild(questionDiv);
+      });
+    });
+</script>

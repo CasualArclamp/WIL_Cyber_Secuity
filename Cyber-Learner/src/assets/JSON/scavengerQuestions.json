@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What does 'DDoS' stand for?",
+    "answer": "Distributed Denial of Service"
+  },
+  {
+    "question": "Which authentication factor involves something the user knows?",
+    "answer": "Knowledge factor"
+  },
+  {
+    "question": "What type of attack involves tricking a user into revealing confidential information?",
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which protocol secures email communication over the internet?",
+    "answer": "SMTPS"
+  }
+]
