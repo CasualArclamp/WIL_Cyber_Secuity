@@ -14,5 +14,13 @@
   {
     "question": "Which protocol secures email communication over the internet?",
     "answer": "SMTPS"
+  },
+  {
+    "question": "What does 2FA stand for?",
+    "answer": "2 Factor authentication"
+  },
+  {
+    "question": "What is a VPN?",
+    "answer": "Encrypted Tunnel"
   }
 ]
