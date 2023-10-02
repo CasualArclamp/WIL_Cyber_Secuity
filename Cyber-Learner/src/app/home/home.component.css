@@ -109,6 +109,12 @@ body {
 #column {
 	width: 50%;
 	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#column h3 {
+	margin-bottom: 1em;
 }
 
 #text {
@@ -116,10 +122,46 @@ body {
 	border-color: aqua;
 	border-width: 5px;
 	padding: 10px;
-	margin: auto;
+	margin-bottom: 1em;
 }
 
 #text li {
+	margin-bottom: 1em;
+}
+
+#application {
+	border-style: ridge;
+	border-color: aqua;
+	border-width: 5px;
+	padding: 10px;
+	margin-bottom: 1em;
+}
+
+#application li {
+	margin-bottom: 1em;
+}
+
+#network {
+	border-style: ridge;
+	border-color: aqua;
+	border-width: 5px;
+	padding: 10px;
+	margin-bottom: 1em;
+}
+
+#network li {
+	margin-bottom: 1em;
+}
+
+#information {
+	border-style: ridge;
+	border-color: aqua;
+	border-width: 5px;
+	padding: 10px;
+	margin-bottom: 1em;
+}
+
+#information li {
 	margin-bottom: 1em;
 }
 
