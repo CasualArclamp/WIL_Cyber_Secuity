@@ -15,6 +15,7 @@ import { GamesComponent } from './games/games.component';
 import { ReferenceComponent } from './reference/reference.component';
 import { ScavengerComponent } from './scavenger/scavenger.component';
 import { ContactComponent } from './contact/contact.component';
+import { MutipleComponent } from './mutiple/mutiple.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent},
@@ -24,6 +25,7 @@ const appRoutes: Routes = [
   { path: 'games', component: GamesComponent},
   { path: 'reference', component: ReferenceComponent},
   { path: 'scavenger', component: ScavengerComponent},
+  { path: 'mutiple', component: MutipleComponent},
   { path: 'contact', component: ContactComponent}
 ];
 
@@ -40,7 +42,8 @@ const appRoutes: Routes = [
     GamesComponent,
     ReferenceComponent,
     ScavengerComponent,
-    ContactComponent
+    ContactComponent,
+    MutipleComponent
   ],
   imports: [
     BrowserModule,

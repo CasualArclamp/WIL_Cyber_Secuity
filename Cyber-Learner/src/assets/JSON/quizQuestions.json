@@ -1,0 +1,85 @@
+{
+    "questions": [{
+            "questionText": "Question 1: When suspicious email messages arrive in your inbox, you share the responsibility of protecting the organization as the last line of defense. So you can:",
+            "options": [{
+                "text": "A. Reply to the sender address and blame their behavior"
+            },
+            {
+                "text": "B. Report the Phish Alert to email server",
+                "correct": true
+            },
+            {
+                "text": "C. Ignore it"
+            }], 
+            "explanation": "The correct answer is B"
+        }, 
+        {
+            "questionText": "Question 2: What do you think is the primary threat for software developers?",
+            "options": [{
+                "text": "A. Availability"
+            },
+            {
+                "text": "B. Disclosure"
+            },
+            {
+                "text": "C. Integrity",
+                "correct": true
+            },
+            {
+                "text": "D. Authenticity"
+            }],
+            "explanation": "The correct answer is C"
+        },
+        {
+            "questionText": "Question 3: Which one of the following statements is false?",
+            "options": [{
+                "text": "A. 3DES is more secure than DES in keeping confidentiality."
+            },
+            {
+                "text": "B. 3DES uses DES 3 times."
+            },
+            {
+                "text": "C. AES is the most secured among 3DES, DES and AES."
+            },
+            {
+                "text": "D.  DES is the slowest in encryption and decryption among 3DES, DES and AES.",
+                "correct": true
+            }],
+            "explanation": "The correct answer is D"
+        },
+        {
+            "questionText": "Question 4: Output of a system/program is dependent on the timing of other uncontrollable events. This will cause which of the following attacks:",
+            "options": [{
+                "text": "A. Buffer overflow"
+            },
+            {
+                "text": "B. Return-to-libc attack"
+            },
+            {
+                "text": "C. Race condition attack"
+            },
+            {
+                "text": "D. format string attack",
+                "correct": true
+            }],
+            "explanation": "The correct answer is D"
+        },
+        {
+            "questionText": "Question 5: What is the solution to defend against rainbow attacks where attackers can create a table of password hashes and allow a reverse check-up in the table to find the original password?",
+            "options": [{
+                "text": "A. Salting ",
+                "correct": true
+            },
+            {
+                "text": "B. Stretching"
+            },
+            {
+                "text": "C. Do not disclose which hashing algorithm is used"
+            },
+            {
+                "text": "D. Bcrypt"
+            }],
+            "explanation": "The correct answer is A"
+    }]
+    
+}

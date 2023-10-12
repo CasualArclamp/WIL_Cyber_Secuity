@@ -49,23 +49,22 @@ body {
 	color:aliceblue;
 }
 
-h1, h3, label {
-  color: white;
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  text-align: center;
+.container {
+    color: aliceblue;
+    padding-bottom: 2em;
+    margin-left: 15%;
 }
 
-.correct-answer {
-  background-color: lightgreen;
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
-.question {
-  padding: 5px;
+li .card:hover{
+    border: 1px solid blue;
 }
 
-input {
-  float: right;
-}
 
 @media only screen and (min-width: 900px) {
 
@@ -86,6 +85,9 @@ input {
 		font-size: 4em;
 	}
 
-	/* Content */
+    .container {
+        width: 70%;
+    }
 
 }
+

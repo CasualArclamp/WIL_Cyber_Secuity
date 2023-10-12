@@ -2,4 +2,79 @@ h1, h3, label {
   color: white;
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   text-align: center;
+  padding-bottom: 2em;;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	background: white;
+	color: black;
+}
+
+/* Page Header */
+
+#page-header {
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	background-size:contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	background-image: url('../../assets/images/robort.png');
+	
+	
+	
+}
+
+#page-header .title {
+	height: 600px;
+	background-size: cover;
+	
+	
+}
+
+
+
+#page-header h1 {
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 3em;
+	line-height: 1em;
+	padding: 0.1em 1em 0 1em;
+	color:aliceblue;
+}
+
+#page-header p {
+	color:aliceblue;
+}
+
+@media only screen and (min-width: 900px) {
+
+	body {
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+
+	
+
+	/* Page Header */
+
+	#page-header {
+		min-height: 80vh;
+	}
+
+	#page-header h1 {
+		font-size: 4em;
+	}
+
+	/* Content */
+
 }
