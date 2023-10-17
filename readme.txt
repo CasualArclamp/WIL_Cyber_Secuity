@@ -10,7 +10,7 @@ This repository will contain all of the code used to run the website.
 All the 4 steps are referenced from https://angular.io/guide/setup-local.
 You can check this webpage for more information.
 
-Steps for running this website locally:
+Steps for running this website:
 
 1. Node.js is required.
     For more information on installing Node.js, 
@@ -42,7 +42,7 @@ Steps for running this website locally:
     Carefully read the message displayed after executing the command and follow the instructions. 
     Make sure you understand the implications of setting an execution policy.
 
-4. Run the website locally for development:
+4. Run the website
     open Cyber-Learner folder in terminal. (path of Cyber-Learner foleder: WIL_Cyber_Secuity\Cyber-Learner)
     run the following command: 
 

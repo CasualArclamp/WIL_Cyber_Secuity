@@ -95,7 +95,7 @@ body {
 	border-color: aqua;
 	border-width: 5px;
 	padding: 10px;
-	margin: auto;
+	margin-bottom: 1em;
 }
 
 #phishing article h3 {
@@ -107,9 +107,7 @@ body {
 	text-align: left;
 }
 
-#details {
-	margin-bottom: 1em;
-}
+
 
 #phishing article li {
 	text-align: left;
