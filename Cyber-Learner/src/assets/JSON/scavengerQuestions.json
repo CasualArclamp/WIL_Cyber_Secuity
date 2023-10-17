@@ -1,26 +1,34 @@
 [
   {
     "question": "What does 'DDoS' stand for?",
-    "answer": "Distributed Denial of Service"
+    "answer": ["Distributed Denial of Service", "Distributed Denial of Services"]
   },
   {
     "question": "Which authentication factor involves something the user knows?",
-    "answer": "Knowledge factor"
+    "answer": ["Knowledge factor"]
   },
   {
     "question": "What type of attack involves tricking a user into revealing confidential information?",
-    "answer": "Phishing"
+    "answer": ["Phishing"]
   },
   {
     "question": "Which protocol secures email communication over the internet?",
-    "answer": "SMTPS"
+    "answer": ["SMTPS", "SMTP Secure"]
   },
   {
     "question": "What does 2FA stand for?",
-    "answer": "2 Factor authentication"
+    "answer": ["2 Factor authentication", "Two-Factor Authentication", "Two Factor Authentication"]
   },
   {
     "question": "What is a VPN?",
-    "answer": "Encrypted Tunnel"
+    "answer": ["Encrypted Tunnel", "Virtual Private Network"]
+  },
+  {
+    "question": "Name any of the most common types of malware.",
+    "answer": ["Viruses", "Virus", "Trojan", "Trojans", "Botnet", "Botnets", "Rootkit", "Rootkits", "Spyware", "Adware", "Ransomware"]
+  },
+  {
+    "question": "What is the sixth pillar of Total Defence?",
+    "answer": ["Digital Defence"]
   }
 ]

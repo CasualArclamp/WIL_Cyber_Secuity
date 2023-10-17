@@ -24,9 +24,10 @@ export class ScavengerComponent implements OnInit {
 
   checkAnswer(index: number) {
     const question = this.questions[index];
-    question.userAnswer = question.userAnswer.trim();
+    question.userAnswer = question.userAnswer.trim().toLowerCase();
+    const correctAnswers = question.answers.map((answer: string) => answer.toLowerCase());
 
-    if (question.userAnswer.toLowerCase() === question.answer.toLowerCase()) {
+    if (correctAnswers.includes(question.userAnswer)) {
       console.log(`Question ${index + 1}: Correct`);
     } else {
       console.log(`Question ${index + 1}: Incorrect`);
