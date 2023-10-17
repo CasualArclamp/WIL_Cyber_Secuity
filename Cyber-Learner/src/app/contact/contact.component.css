@@ -56,6 +56,37 @@ body {
 	color:aliceblue;
 }
 
+/* Main Content */
+#contact {
+	margin-top: 2em;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+#contact article {
+	border-style: ridge;
+	border-color: aqua;
+	border-width: 5px;
+	padding: 10px;
+	margin-bottom: 1em;
+}
+
+#contact article h3 {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+#contact article p {
+	text-align: left;
+}
+
+
+
+#contact article li {
+	text-align: left;
+}
+
 @media only screen and (min-width: 900px) {
 
 	body {
