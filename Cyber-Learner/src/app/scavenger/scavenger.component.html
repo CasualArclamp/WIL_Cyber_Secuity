@@ -1,23 +1,19 @@
 <header id="page-header">
 
   <section class="title">
-
-      
       
       <h1>Scavenger Hunt Game</h1>
 
       <b>
-      <p>Welcome to Cyber Learner!</p>
-      <p>You could find out how to protect yourself when using internet.</p>
-      <p>Just try doing something exciting here.</p>
+        <p>Welcome to Cyber Learner!</p>
+        <p>You could find out how to protect yourself when using internet.</p>
+        <p>Just try doing something exciting here.</p>
       </b>
       
 
   </section>
-  
+
 </header>
-
-
 
 <div>
   <h1>Scavenger Hunt Questions</h1>
@@ -25,7 +21,7 @@
   <div id="question-list">
     <div class="question" *ngFor="let questionData of questions; let i = index">
       <label>{{ 'Question ' + (i + 1) + ': ' + questionData.question }}</label>
-      <input type="text" placeholder="Enter your answer" [(ngModel)]="questionData.userAnswer" (input)="checkAnswer(i)" [ngClass]="{'correct-answer': questionData.userAnswer && questionData.userAnswer.toLowerCase() === questionData.answer.toLowerCase()}">
+      <input type="text" placeholder="Enter your answer" [(ngModel)]="questionData.userAnswer" (input)="checkAnswer(i)" [ngClass]="{'correct-answer': isAnswerCorrect(i), 'incorrect-answer': !isAnswerCorrect(i)}">
     </div>
   </div>
 </div>
