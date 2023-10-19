@@ -44,7 +44,9 @@ Steps for running this website locally:
 
 4. Run the website locally for development:
     open Cyber-Learner folder in terminal. (path of Cyber-Learner foleder: WIL_Cyber_Secuity\Cyber-Learner)
-    run the following command: 
+    run the following command:
+
+    npm install
 
     ng serve --open
 
